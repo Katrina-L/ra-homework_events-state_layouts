@@ -1,0 +1,94 @@
+#root {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.icon {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    justify-content: end;
+}
+
+.shop-item {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid lightslategray;
+}
+
+.item-img {
+    width: 120px;
+    height: 120px;
+}
+
+.item-name {
+    text-transform: uppercase;
+}
+
+.item-price {
+    color: red;
+}
+
+.item-addBtn {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: red;
+}
+
+.cards-view {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.shop-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.card-name {
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+}
+
+.card-img {
+    width: 250px;
+    height: 250px;
+}
+
+.card-price {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    color: red;
+}
+
+.card-addBtn {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+}
